@@ -1,2 +1,2 @@
-#!/bin/bas
+#!/bin/bash
 echo {a..z}{a..f} | tr ' ' '/n'| grep -v 'oo'
